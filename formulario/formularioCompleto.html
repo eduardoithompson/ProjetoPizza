@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1> Formulário Cadastro Clientes Pizzaria </h1>
+</body>
+<form action="#" method="post">
+        <fieldset>
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" style="width: 15em" value="">
+                </div>
+                <div class="campo">
+                    <label for="snome">Sobrenome</label>
+                    <input type="text" id="snome" name="snome" style="width: 15em" value="">
+                </div>
+            </fieldset>
+            <div class="campo">
+                <label>Sexo</label>
+                <label>
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                </label>
+                <label>
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                </label>
+            </div>
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" style="width: 20em" value="">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+            </div>
+    
+            <fieldset>
+                    <fieldset class="grupo">
+                        <div class="campo">
+                            <label for="endereco">Nome da Rua</label>
+                            <input type="text" id="endereco" name="endereco" style="width: 20em" value="">
+                        </div>
+                        <div class="campo">
+                            <label for="numero">Numero</label>
+                            <input type="text" id="numero" name="numero" style="width: 5em" value="">
+                        </div>
+                        <div class="campo">
+                                <label for="bairro">Bairro</label>
+                                <input type="text" id="bairro" name="bairro" style="width: 20em" value="">
+                            </div>
+                    </fieldset>
+    
+            <fieldset class="grupo">
+                <div class="campo">
+                    
+                    <label for="cidade">Cidade</label>
+                    <!-- <input type="text" id="cidade" name="cidade" style="width: 10em" value=""> -->
+                    <select name="cidade" id="cidade">
+                    
+                            <option value="São Paulo">São Paulo</option>
+                            <option value="Osasco">Osasco</option>
+                            <option value="São Bernardo do Campo">SBC</option>
+                            <option value="Diadema">Diadema</option>
+                            <option value="São Caetano do Sul">São Caetano do Sul</option>
+                            <option value="Guarulhos">Guarulhos</option>
+                        </select>
+                
+                </div>
+                <div class="campo">
+                    <label for="estado">Estado</label>
+                    <select name="estado" id="estado">
+                        <option value="SP">SP</option>
+
+                    </select>
+                </div>
+            </fieldset>
+           
+            <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+                </div>
+        
+                <div class="campo">
+                    <label>Obs: Concordo que seja utilizado meus dados para promoções e divulgação.</label>
+                    <label>
+                        <input type="checkbox" name="sorteio" value="1"> Gostaria de participar do Sorteio de uma Pizza.
+                    </label>
+                </div>
+        
+                <button type="submit" name="submit">Participar</button>
+            </fieldset>
+        </form>

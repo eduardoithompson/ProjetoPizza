@@ -8,6 +8,24 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
+<script type="text/javascript">
+(function () {
+var options = {
+whatsapp: "+5511988828557", // Número do WhatsApp
+company_logo_url: "//www.webcreative.com.br/themes/webcreative/images/perfil.jpg", // URL com o logo da empresa
+greeting_message: "Olá! A CodePizza está pronta para atende-lo", // Texto principal
+call_to_action: "Faça seu pedido agora aqui pelo Whatsapp ;)", // Chamada para ação
+position: "right", // Posição do widget na página 'right' ou 'left'
+};
+var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+})();
+</script>
+
+
 <body>
 <div class="card mb-3" style="max-width: 2000px;">
   <div class="row no-gutters">
@@ -20,13 +38,12 @@
         <p class="card-text">
 
         insert.seuPedido {<br> 
-        A Codpizza é uma pizzaria 100% digital, <br>
+        A Codpizza é a sua pizzaria, <br>
         Deliciosos sabores programados para o seu paladar, rápida na entrega como 5g e inovadora como os tempos de hoje. <br> 
         Experiemente essa inovação! Viva o futuro!<br>
          }<br>
          return $sempre!</p>
 
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
       </div>
     </div>
   </div>
@@ -36,3 +53,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1cF_l5GbkdOGVqtbSW9ZkQg-EDfezt2iH" width="640" height="480"></iframe>
+
+  </div>
+</div>

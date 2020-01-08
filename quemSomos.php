@@ -27,6 +27,37 @@ var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,
 
 
 <body>
+
+<!-- // Card deck Redes sociais -->
+
+<div class="card-deck">
+  <div class="card">
+    <img src=assets\img\facebook.png class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Facebook</h5>
+      <p class="card-text">Curta nossa pagina para ficar atualizado de tudo que acontece, inclusive eventos especiais e descontos exclusivos!</p>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src=assets\img\instagram.jpg class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Instagram</h5>
+      <p class="card-text">Fique por dentro de novos sabores e promoções, além de conferir as fotos de cada uma de nossas pizzas!</p>
+
+    </div>
+  </div>
+  <div class="card">
+    <img src=assets\img\blog.png class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Blog/Notícias</h5>
+      <p class="card-text">Fique por dentro das nossas novidades atraves do nosso blog! Lá você também encontra notícias e curiosidades sobre a nossa pizzaria! .</p>
+
+    </div>
+  </div>
+</div>
+
+
 <div class="card mb-3" style="max-width: 2000px;">
   <div class="row no-gutters">
     <div class="col-md-4" id="legopizza">
